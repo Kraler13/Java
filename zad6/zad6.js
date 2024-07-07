@@ -6,7 +6,7 @@ let listPracownikow = {
     ]
 };
 
-listPracownikow.forEach( function(firstName, lastName, index) {
-    console.log('index:' + index + ',imie' + firstName + ',nazwisko' + lastName)
+listPracownikow.pracownicy.forEach( function(item, index) {
+    console.log('index:' + index + ', imie: ' + item.firstName + ', nazwisko: ' + item.lastName)
 });
 
