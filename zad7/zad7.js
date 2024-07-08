@@ -13,7 +13,7 @@ class Ksiazka {
         else{
             let prze = 'została nieprzeczytana'
         }
-        return 'Książka ma tytuł ${tytul}, autorem jest ${autor} i ${prze}.';
+        return `Książka ma tytuł ${this.tytul}, autorem jest ${this.autor} i ${prze}.`;
     }
   }
 
