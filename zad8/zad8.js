@@ -10,6 +10,7 @@ function zad(tab){
             }
         }   
     }
+    return tab;
 }
 
 
